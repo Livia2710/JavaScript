@@ -43,7 +43,7 @@ let celebridade = {// Objeto um "celebridade"
 
 document.write(`Altura da celebridade <strong>${celebridade.medidas.altura}</strong><br>`);
 
-document.write(`<strong>${celebridade.nome}</strong> é uma atriz incrivel , assista o filme ${celebridade.filmes[2]}<br>`);
+document.write(`<strong>${celebridade.nome}</strong> é uma atriz incrivel , assista o filme <strong>${celebridade.filmes[2]}</strong>.<br>`);
 
 
 
@@ -56,6 +56,23 @@ document.write('<h2 style="color: blue;">Array do objeto</h2><br>');
 
 
 // 3ª Digitação (Aqui)
+let filmesFamosos = [
+    {
+        titulo: 'Pulp Fiction',
+        diretor: 'Quentin Tarantin',
+    },
 
+    {
+        titulo: 'The Godfather',
+        diretor: 'Francis Ford Coppole',
+    },
 
+    {
+        titulo: 'Inception',
+        diretor: 'Christopher Nolan',
+    }
 
+]
+
+document.write(`Meu filme favorito é: <strong>${filmesFamosos[1].titulo} </strong> dirigido por <strong>${filmesFamosos[1].diretor} 
+</strong>`);

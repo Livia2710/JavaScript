@@ -5,6 +5,12 @@ let carroFerrari = {
 
     
 // Escreva as propriedades do objeto aqui
+   modelo: 'LaFerrari',
+   ano:2013,
+   cor: 'Veremlho',
+   potencia: '960 CV',
+   preco: 14000000,
+
 
 
 };
@@ -12,5 +18,6 @@ let carroFerrari = {
 // Exibir informações sobre o carro
 document.write(`Modelo do carro: <strong>${carroFerrari.modelo}</strong><br>`);
 document.write(`Preço do carro: <strong>${carroFerrari.preco}</strong><br>`);
+
 
 
