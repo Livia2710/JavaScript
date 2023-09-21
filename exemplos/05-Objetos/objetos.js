@@ -1,5 +1,10 @@
 // Exemplo 1: objeto básico
-
+ let atriz = { //Decalração de um objeto chamado "atriz"
+    nome: 'Angelina Jolie',
+    nascimento: 1975, //Propriedade com o valor de 1975
+    filmes: 60,
+    nacionalidade: 'Estados Unidos'
+ }
 
 // 1ª Digitação (Aqui)
 
@@ -24,6 +29,22 @@ document.write('<h2 style="color: blue;">Objeto contendo array e outro objeto</h
 
 
 // 2ª Digitação (Aqui)
+let celebridade = {// Objeto um "celebridade"
+  nome: 'Scarlet Johansson',
+  idade: 37,
+  sexo: 'feminino',
+  filmes: ['Lost in translation', 'The Avengers', 'Marriage Story'], //Array
+  cidade: 'Nova york',
+  medidas: {//Objetos dois "medidas"
+    peso :57,
+    altura: 1.60,
+  }
+}
+
+document.write(`Altura da celebridade <strong>${celebridade.medidas.altura}</strong><br>`);
+
+document.write(`<strong>${celebridade.nome}</strong> é uma atriz incrivel , assista o filme ${celebridade.filmes[2]}<br>`);
+
 
 
 document.write("__________________________________________________________________<br>");

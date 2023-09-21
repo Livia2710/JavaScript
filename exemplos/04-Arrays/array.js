@@ -38,3 +38,5 @@ let equipesF1 = [
 
 document.write("A equipe n°1 de F1 é :<strong>"+equipesF1[0][2]+"</strong> sem sombra de dúvidas <br>")
 
+document.write("A equipe n°2 de F1 é :<strong>"+equipesF1[1][2]+"</strong> sem sombra de dúvidas <br>")
+
