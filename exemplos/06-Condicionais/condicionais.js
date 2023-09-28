@@ -4,17 +4,22 @@ document.write('<h2 style="color: blue;">Condicional encadeada</h2><br>');
 
 /* if/else, else if */
 let nome = "Ignacio";
-let idade = 41;
+
 
 // Verificar idade da pessoa
 
 
 // Condicional encadeada
 let mensagem;
+let idade = 5;
 
 
-// 1ª Digitação (Aqui)
-
+// 1ª Digitação (Aqui)000000
+if (idade > 18){
+    mensagem = ("Você é maior de idade!")
+}else {
+    mensagem = ("Você é menor de idade!")
+}
 
 console.log(mensagem);
 document.write(`${mensagem}<br>`); 
@@ -27,6 +32,18 @@ document.write('<h2 style="color: blue;">Condicional aninhada</h2><br>');
 
 
 // 2ª Digitação (Aqui)
+if (idade >=60) {
+    mensagem = "É idoso";
+} else if (idade>= 18){
+    mensagem = "É adulto, mas não é idoso";
+} else {
+    //&& (Operador E)
+   if (idade >=12 && idade < 18) {
+    mensagem = "É adolescente";
+   } else {
+    mensagem = "É baby.";
+   }
+}
 
 
 document.write(`${nome}, ${mensagem} <br>`); // Mostra a tela (Navegador)
@@ -43,7 +60,17 @@ var n2 = 9;
 
 
 // 3ª Digitação (Aqui)
+media = (n1 + n2) /2 ;
 
+// if (media >= 7) {
+//     situacao = 'Aprovado!';
+// } else {
+//     situacao = 'Reprovado!';
+// }
+
+//Operador ternario
+
+situacao = media >=7 ? 'Aprovado!' : 'Reprovado';
 
 document.write(`Média: ${media}<br> `)
 document.write(`Status: ${situacao}<br>`); // Mostra a tela (Navegador)
