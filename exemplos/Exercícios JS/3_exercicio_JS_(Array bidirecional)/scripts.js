@@ -14,5 +14,6 @@ let cor = [
 
 document.write(`Todas propriedades do objeto cor: <strong>${JSON.stringify(cor)}</strong><br><br>`);
 
+document.write("Misturando <strong>"+cor[0][0]+" e <strong>"+cor[0][2]+"</strong></strong> forma o <strong>"+cor[1][2]+"</strong> <br>")
 
 

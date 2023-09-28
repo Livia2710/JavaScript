@@ -3,17 +3,15 @@ document.write('<h2 style="color: blue;">Resolução</h2><br>');
 
 
 // Digite a resolução do exercício aqui e visualize o resultado no navegador
-let nomes = {
-    N1 :'Pedro',
-    N2 :'Livia',
-    N3 :'Gabi',
-    N4 : 'Sophie',
-    N5 :  'Victor'
 
+let nomes = [
+    "Pedro", "Sophia", "Gabriela", "Victor", "Rafaela"
+];
 
+// Cache do tamanho array
+let nome = nomes.length;
+
+for (let i = 0; i < nome; i++){
+    document.write(`O valor de carros [${i}]é: <strong>${nomes[i]}<strong/><br>`);
 }
 
-for(nomes = 0; nomes < 5; nomes++ ) {
-    document.write('nomes:')
-}
- 
