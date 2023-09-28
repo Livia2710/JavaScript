@@ -88,12 +88,27 @@ Opçôes do Chat Bot:
 3 -> dúvidas
 x -> opçao desconhecida, direcionar para um humano */
 
-let opcao = 4;
+let opcao = 1;
 let textoOpcao;
 
 
 
 // 4ª Digitação (Aqui)
+switch(opcao) {
+    case 1 :
+        textoOpcao = 'Legal, o que deseja saber?';
+        break;
+    case 2 :
+        textoOpcao = 'Que pena, o que aconteceu?';
+        break;
+    case 3 :
+        textoOpcao = 'Certo, qual a dúvida?';
+        break;
+    case 4 :
+        textoOpcao = 'Hum, não entendi... vou tranferir';
+        break;
+}
+
 
 
 document.write(`Você escolheu a opção ${opcao} <br>`);
@@ -105,11 +120,13 @@ document.write("________________________________________________________________
 document.write('<h2 style="color: blue;">Operadores de comparação</h2><br>');
 
 // Operadores de comparação
+let a = 10;
+let b = '10';
 
 
 // 5ª Digitação (Aqui)
 
 
 // == se é igual/ === estritamente igual (até tipo de dados)
-document.write(a == b); // True ou false
+document.write(a === b); // True ou false
 
