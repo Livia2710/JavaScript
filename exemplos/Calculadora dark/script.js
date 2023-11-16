@@ -18,6 +18,7 @@ arr.forEach(button => {
     button.addEventListener('click',(e) => {
         //Verifica se o texto dentro do botão clicado é '='
         if (e.target.innerHTML == '=') {
+            // A função eval() é uma função Javascript que avalia e executa dinamicamente o código.Quando a linha executada, o JavaScript interpreta o conteúdo de string como uma expressão e a avalia. No exemplo dado, eval("2 + 2") resultaria en 4, porque ele calcula a soma.
             string = eval(string);
 
             //Define o valor da caixa de entrada 'input' como a nova string calculada
